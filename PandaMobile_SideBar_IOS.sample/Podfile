@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PandaEmail_IOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for PandaEmail_IOS
+  
+  pod 'PandaMobile_SideBar_IOS', '~> 0.0.1'
+
+  target 'PandaEmail_IOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

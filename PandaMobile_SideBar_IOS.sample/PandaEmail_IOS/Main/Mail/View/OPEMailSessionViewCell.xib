@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="80" id="KGk-i7-Jjw" customClass="OPEMailSessionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo_avatar" highlightedImage="demo_avatar" translatesAutoresizingMaskIntoConstraints="NO" id="bvr-ON-KwQ">
+                        <rect key="frame" x="23" y="9.5" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="ecw-aF-NX7"/>
+                            <constraint firstAttribute="width" constant="60" id="jvX-so-icw"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="张三" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KUB-Bk-CLx">
+                        <rect key="frame" x="91" y="13" width="42" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="or2-X6-aaP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="调休申请2017-09-12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wx5-Fe-lVp">
+                        <rect key="frame" x="91" y="33" width="160" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="kvn-mE-xE4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="陈总，申请于三月12日调休" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shg-KV-Mwq">
+                        <rect key="frame" x="91" y="53.5" width="200" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="GmE-nb-McL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:48" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cw-DB-b34">
+                        <rect key="frame" x="359" y="53.5" width="42" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="42" id="9WL-lV-RrH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.69215973980000001" green="0.69215973980000001" blue="0.69215973980000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bvr-ON-KwQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5ga-ph-dqb"/>
+                    <constraint firstItem="Wx5-Fe-lVp" firstAttribute="leading" secondItem="bvr-ON-KwQ" secondAttribute="trailing" constant="8" id="91V-ze-0DA"/>
+                    <constraint firstItem="KUB-Bk-CLx" firstAttribute="leading" secondItem="bvr-ON-KwQ" secondAttribute="trailing" constant="8" id="JLc-jh-8Ps"/>
+                    <constraint firstItem="Wx5-Fe-lVp" firstAttribute="top" secondItem="KUB-Bk-CLx" secondAttribute="bottom" constant="2" id="NHH-Rv-iLu"/>
+                    <constraint firstItem="shg-KV-Mwq" firstAttribute="leading" secondItem="bvr-ON-KwQ" secondAttribute="trailing" constant="8" id="W7R-a8-vD2"/>
+                    <constraint firstItem="KUB-Bk-CLx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="ddl-LF-YwU"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="3cw-DB-b34" secondAttribute="trailing" constant="10" id="fAf-5g-ozE"/>
+                    <constraint firstItem="bvr-ON-KwQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="15" id="gqf-cQ-XbS"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="shg-KV-Mwq" secondAttribute="bottom" constant="2" id="y4W-CS-45L"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3cw-DB-b34" secondAttribute="bottom" constant="2" id="z87-H4-key"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="71.5" y="156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="demo_avatar" width="24" height="24"/>
+    </resources>
+</document>

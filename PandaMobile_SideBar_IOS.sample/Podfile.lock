@@ -1,0 +1,12 @@
+PODS:
+  - PandaMobile_SideBar_IOS (0.0.1)
+
+DEPENDENCIES:
+  - PandaMobile_SideBar_IOS (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  PandaMobile_SideBar_IOS: 64da028406b1ea8824bc7b9bcbe136dd137fa353
+
+PODFILE CHECKSUM: e5bcc2b2f7849b656a8d31ac88055947a610ad36
+
+COCOAPODS: 1.2.1
