@@ -15,5 +15,4 @@ FOUNDATION_EXPORT double PandaMobile_SideBar_IOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char PandaMobile_SideBar_IOSVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <PandaMobile_SideBar_IOS/PublicHeader.h>
-
-
+#import <PandaMobile_SideBar_IOS/OPUSideBarViewController.h>

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		67119A291EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 67119A271EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67119A321EB1AAF900C0D9E4 /* OPUSideBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67119A301EB1AAF900C0D9E4 /* OPUSideBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67119A331EB1AAF900C0D9E4 /* OPUSideBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67119A311EB1AAF900C0D9E4 /* OPUSideBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67119A241EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PandaMobile_SideBar_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		67119A271EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PandaMobile_SideBar_IOS.h; sourceTree = "<group>"; };
 		67119A281EB1AA8900C0D9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67119A301EB1AAF900C0D9E4 /* OPUSideBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OPUSideBarViewController.h; sourceTree = "<group>"; };
+		67119A311EB1AAF900C0D9E4 /* OPUSideBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OPUSideBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +50,20 @@
 		67119A261EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS */ = {
 			isa = PBXGroup;
 			children = (
+				67119A2F1EB1AAF900C0D9E4 /* Main */,
 				67119A271EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS.h */,
 				67119A281EB1AA8900C0D9E4 /* Info.plist */,
 			);
 			path = PandaMobile_SideBar_IOS;
+			sourceTree = "<group>";
+		};
+		67119A2F1EB1AAF900C0D9E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				67119A301EB1AAF900C0D9E4 /* OPUSideBarViewController.h */,
+				67119A311EB1AAF900C0D9E4 /* OPUSideBarViewController.m */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67119A291EB1AA8900C0D9E4 /* PandaMobile_SideBar_IOS.h in Headers */,
+				67119A321EB1AAF900C0D9E4 /* OPUSideBarViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67119A331EB1AAF900C0D9E4 /* OPUSideBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
