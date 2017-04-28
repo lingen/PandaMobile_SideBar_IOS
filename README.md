@@ -3,7 +3,7 @@ PandaMobile_Sidebar is a simple project which support IOS Sidebar UI (OC)
 
 It's looks like:
 
-![SideBar Preview](http://media.lingenliu.com/panda_mobile_sidebar_01.png-default)
+![SideBar Preview](http://media.lingenliu.com/panda_mobile_sidebar_01.png-mobile.png)
 
 ## Add dependency
 
@@ -62,7 +62,7 @@ Third, implement the **OPUSideBarViewControllerDelegate** in **ViewDidLoad** met
 
 ~~~
 
-* **-(UIView*)OPU_sideBarView** return the sidebar view
+*  **-(UIView*)OPU_sideBarView ** return the sidebar view
 * **-(CGFloat)OPU_sideBarViewWidth** set the width for your sidebar view
 * **-(UIView*)OPU_mainView** set the main view which size equals your device's width and height
 
