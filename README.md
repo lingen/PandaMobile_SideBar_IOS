@@ -62,9 +62,17 @@ Third, implement the **OPUSideBarViewControllerDelegate** in **ViewDidLoad** met
 
 ~~~
 
-*  **-(UIView*)OPU_sideBarView ** return the sidebar view
-* **-(CGFloat)OPU_sideBarViewWidth** set the width for your sidebar view
-* **-(UIView*)OPU_mainView** set the main view which size equals your device's width and height
+*  -(UIView*)OPU_sideBarView  
+
+   -> return the sidebar view
+
+* -(CGFloat)OPU_sideBarViewWidth
+
+   -> set the width for your sidebar view
+
+* -(UIView*)OPU_mainView 
+
+  -> set the main view which size equals your device's width and height
 
 
 
